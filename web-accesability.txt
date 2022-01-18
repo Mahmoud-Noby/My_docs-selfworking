@@ -1,0 +1,80 @@
+
+# Web accesablility:
+    o Its a guidlines & practies that aimed to help people wit desabilites to use websites's main functionality 
+
+o web accesablility folowing WCAG V 2.o Rules 
+    1- Level A   //Must have
+    2- Level AA  //Should have
+    3- Level AAA // nice to have
+
+# How is impacted by web accesablility:
+    o Vision weakness   ==> (Hiegh contrast theme && Font resizes)
+    o Physical ==> (Keyboard Tabing)
+    o Blind ==> (screen reader)
+    o Cogitive , Epilepsy ==> (animation)
+
+# Font Resizes:
+    o give html tag a class then set your font size with pexeline
+    o then using REM or EM unites 
+
+# Hiegh Contrast theme
+    o contrast ratio between text-color and background of at 4.5:1 exsits.
+    o use chrome to test the contrast ratio between text-color and background.
+
+$ Notes:  
+    o shoud validate the UI contrast ratio before start development.
+    o use local storge to save the selected theme color and font size.
+
+# Vision disabilities " Design Review": 
+    o No color, Shap or Location difference should be used to differentiate between items.
+    o Having a text identification for items if color difference is used to differenticate items.
+    o Patterns are used to make color related information easily  understandable.
+
+# Keyboard Navigation => (Tabing): 
+    o Tabing should makke sense to user 
+        o follows the HTML tags ordering starting from the beginning of the file then move (line by line).
+        o follows the mouse postion then complete the rest of html file.
+        o order shuold follow the relationship between items and the UI Design.
+            o using tab index attribute
+
+    o Default elements that receives foucs: 
+        <a>, <area>, <button>, <input>, <object>, <select>and <textarea>.
+
+# Tabindex attribute values:
+    o tabindex= 0   #defalt
+    o tabindex= 1   # start with this items hiegher index
+    o tabindex= -1  # drop this items from tabing (-1 is the same as -99 or any nigative number)
+    o tabindex (0 or 1) make unfoucsale items to be foucs.
+
+# Skip to Content 
+    o link to skip repeated contentin each page (like menu and master page) and got to contentin
+    o link to skip any content till the end of that content
+    o link to go to any page section like table of content.
+    o use heading in each section in order to skip from section to another.
+
+    !! Ex:  <a class="sr-only-foucsable" href="#content">Skip to main content</a>
+
+# Tips
+    o use Semantic HTML.
+    o dynamic Page title for each page <title> EGYPTAIR - (page titile) </title>.
+    o For images must should alt attribute
+    o for decorative images leave all attribute null value
+
+# Tools
+    o Colors contrast tool
+        o https://www.tpgi.com/color-contrast-checker/
+    o WAVE toolbar
+        o https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
+    o Readers: NVDA and JWAS 
+
+#Take Time For Review:
+    o Know the needed scope
+    o Review desgin complexity 
+    o Review design colors 
+    o Pop-ups
+    o Animations
+    o plugins 
+
+# References: 
+    o https://www.w3.org/WAI/WCAG21/quickref/
+    o https://webaim.org/standards/wcag
