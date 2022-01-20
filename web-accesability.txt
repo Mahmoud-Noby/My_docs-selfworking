@@ -14,7 +14,7 @@ o web accesablility folowing WCAG V 2.o Rules
     o Cogitive , Epilepsy ==> (animation)
 
 # Font Resizes:
-    o give html tag a class then set your font size with pexeline
+    o give html tag a class then set your font size with pexeles
     o then using REM or EM unites 
 
 # Hiegh Contrast theme
@@ -22,7 +22,7 @@ o web accesablility folowing WCAG V 2.o Rules
     o use chrome to test the contrast ratio between text-color and background.
 
 $ Notes:  
-    o shoud validate the UI contrast ratio before start development.
+    o shoude validate the UI contrast ratio before start development.
     o use local storge to save the selected theme color and font size.
 
 # Vision disabilities " Design Review": 
@@ -41,10 +41,10 @@ $ Notes:
         <a>, <area>, <button>, <input>, <object>, <select>and <textarea>.
 
 # Tabindex attribute values:
-    o tabindex= 0   #defalt
+    o tabindex= 0   #defalt flow and items periorties
     o tabindex= 1   # start with this items hiegher index
     o tabindex= -1  # drop this items from tabing (-1 is the same as -99 or any nigative number)
-    o tabindex (0 or 1) make unfoucsale items to be foucs.
+    o tabindex (0 or 1) make unfoucsable items to be foucs.
 
 # Skip to Content 
     o link to skip repeated contentin each page (like menu and master page) and got to contentin
