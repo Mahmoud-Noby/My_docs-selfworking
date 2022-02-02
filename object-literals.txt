@@ -1,0 +1,14 @@
+const mystery = 'answer';
+const InverseOfPI = 1 / Math.PI;
+
+const obj = {
+	p1: 10,
+  p2: 20,
+  f1() {},
+  f2: () => {},
+  [mystery]: 42,   <= Dynamic object value means that you must assign a new property to mystery like "const mystery = 'answer' " to take the value 42;
+ =>
+  InverseOfPI,
+};
+console.log(obj.mystery);  // undefined because its a dynamic object value
+console.log(obj.answer);  // 42
