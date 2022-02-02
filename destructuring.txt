@@ -1,0 +1,40 @@
+o with Object
+
+  const PI = Math.PI;
+  const E = Math.E;
+  const SQRT2 = Math.SQRT2;
+  const {PI, E, SQRT2}  = Math;
+
+o Somewhere in a React App
+  const {Component, Fragment, useState} = require('react');
+  useState();
+
+  const data = {
+    temp1: 0.256314,
+    temp2: 0.369447,
+    firstName: "Noby",
+    lastName: "Khalil"
+  }
+  const {temp1, temp2, ...person} = data;
+  const newObject = {...person};
+
+   const circle = {
+     label: 'circleX',
+     radius: 2,
+   };
+
+   const circleArea = ({radius}) =>(PI * radius * radius).toFixed(2);
+   console.log(circleArea(circle));
+
+//////////////////////////////////////////////////////////////////////////
+
+o with array
+
+  const [first, ...restOfItems] = [1,2,3,5,8,9,8,7,6,4,6,8,99,6,220,2]
+    const newArr = [...restOfItems]
+
+    const [first, second,, forth] = [10, 20, 30, 40];
+
+  o Somewhere in a React App with array
+    const [value, setValue] = useState(initialValue);
+

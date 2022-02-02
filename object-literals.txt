@@ -1,4 +1,6 @@
-const mystery = 'answer';
+Object Literals: 
+
+const mystery = 'answer';   // back to this line after complete reading the code
 const InverseOfPI = 1 / Math.PI;
 
 const obj = {
