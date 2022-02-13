@@ -1,0 +1,17 @@
+# 1 with parent container :
+  o display: flex  ==> flex items dispaled inline and take full height of the parent
+  o display: inline-flex  ==>do the same work of (display: flex) but do not resize the flex items when decrease the screen size.
+  o flex-direction: row or column;
+  // Note: the default value of flex flow is => flex-flow: row nowrap
+  o flex-wrap: wrap or nowrap; // difference between wrap and nowrap is making the flex items taking new row or take the fit content of the screen in screen resizing.
+  o flex-flow: (flex-direction) and (flex-wrap);
+  o justify-content: start, end, center or between;
+  o algin-items: start, end, center or between;
+  o algin-content: flex-start, flex-end, center or between; // on screen resizing when we have more than one row we can control the space between these row acoording to the cross axis. 
+
+
+////////////////////////////////////////////////////////////////
+# 2 with flex items: 
+
+o order : take integer values || default => 0;
+o algin-self: flex-start, flex-end or center;  follows the cross axis of thier parent container
