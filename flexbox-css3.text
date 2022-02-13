@@ -15,3 +15,6 @@
 
 o order : take integer values || default => 0;
 o algin-self: flex-start, flex-end or center;  follows the cross axis of thier parent container
+o flex: 0 1 auto;  // grow shrink basis
+ # flex grow and shrink means that in screen reziing flex items will grow and shrink with the you will give to it and
+ # flex basis : defines the starting size depending on the main axis of the container try to understand.
